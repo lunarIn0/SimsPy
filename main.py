@@ -1,29 +1,3 @@
-# class Human:
-#     def __init__(self, name="Human"):
-#         self.name = name
-#
-# class Auto:
-#     def __init__(self, brand):
-#         self.brand = brand
-#         self.passengers = []
-#     def add_passenger(self, *args):
-#         for i in args:
-#             self.passengers.append(i)
-#
-#     def print_passengers_names(self):
-#         if self.passengers != []:
-#             print(f"Names of {self.brand}, passengers:")
-#             for human in self.passengers:
-#                 print(human.name)
-#         else:
-#             print(f"No passengers in {self.brand}")
-#
-# nah = Human("Nick")
-# jack = Human("jack")
-# BMW = Auto("BMW")
-# BMW.add_passenger(nah, jack)
-# BMW.print_passengers_names()
-
 import random
 
 class Human:
